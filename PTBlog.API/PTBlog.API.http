@@ -1,0 +1,32 @@
+@PTBlog.API_HostAddress = https://localhost:7255
+
+
+GET {{PTBlog.API_HostAddress}}/API/Categories
+
+###
+
+GET {{PTBlog.API_HostAddress}}/API/Categories/{id}
+
+###
+
+POST {{PTBlog.API_HostAddress}}/API/Categories
+Content-Type: application/json
+
+{
+  
+}
+
+###
+
+DELETE {{PTBlog.API_HostAddress}}/API/Categories/{id}
+
+###
+
+PUT {{PTBlog.API_HostAddress}}/API/Categories/{id}
+Content-Type: application/json
+
+{
+  //EditCategoryCommand
+}
+
+###
